@@ -124,7 +124,7 @@ def deleteAccount(num):
         oldlist = pickle.load(infile)
         infile.close()
         newlist = []
-        for item in oldlist :
+        for item in oldlist 
             if item.accNo != num :
                 newlist.append(item)
         os.remove('accounts.data')
